@@ -65,4 +65,4 @@ P_negative = (P_neg_test_given_infected * P_infected) + (P_neg_test_given_not_in
 P_infected_neg_test = P_neg_test_given_infected * P_infected / P_negative
 
 
-print(f"Probability you might still carry COVID-19: \n{P_infected_neg_test:.2%}")
+print(f"Probability you might still carry COVID-19 If you tested negative: \n{P_infected_neg_test:.2%}")
